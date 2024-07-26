@@ -6,9 +6,6 @@ children = [
     {"name": "Eve", "age": 6, "height": 99} 
 ]
 
-# filter_function = lambda child: child['age'] > 3 and child['height'] > 100
-
 eligible_children = [value for value in children if value['age'] > 3 and value['height'] > 100]
-# eligible_children = [child for child in children if filter_function(child)]
 
 print(eligible_children)
